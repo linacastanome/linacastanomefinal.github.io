@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Lovely Pet</title>
+</head>
+
+<!--Navegadador-->
+
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="index.html"><img src="images/Logo Lovely pet.png" alt="Logo"></a></div>
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Razas</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+
+<body>
+
+<!--Slider-->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/Banner_Mundo-perros-01.jpg"></div>
+          <div class="swiper-slide"><img src="images/Banner_Razas.jpg"></div>
+          <div class="swiper-slide"><img src="images/Banner_perros.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  <!--Javascript-->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+<!--fin Slider-->
+
+<!-- .cd-main-content -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+ <script>
+   if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+ </script>
+ <script src="js/main.js"></script> <!-- Resource jQuery -->  
+
+
+ <!--caja_1-->
+<div class="caja_1">
+  <h2>Beneficios de tener un perro</h2>
+  <p><strong>No es extraño que a los perros se les denomine "el mejor amigo del hombre". 
+    En Lovely Pet puedes conocer los beneficios de tener un perro y entender por qué los perros 
+    son grandes mascotas.</strong> No hay nada mejor que un largo paseo con tu 
+    amigo de cuatro patas en una fresca mañana de primavera. ¡O ver la alegría 
+    de su cara cuando coges una pelota y se da cuenta de que es hora de ir al 
+    parque a jugar! Incluso estar en casa es más relajante en su compañía. </p>
+
+<p>
+  Se dice, y es totalmente cierto, que las mascotas y los perros devuelven el amor 
+  que se les da multiplicado por diez.
+
+  Antes de salir corriendo a buscar un perro, es importante que lo pienses 
+  con detenimiento. <strong> Puede ser un trabajo duro y es un compromiso de por vida,
+  ya que tu perro dependerá de ti durante muchos años.</strong> 
+  
+  Cuando estés seguro de disponer del tiempo y del tipo de vida que te permita 
+  tener un perro, y después de haberte informado sobre las diferentes razas y
+   personalidades para saber qué perros son las mejores mascotas, será el momento 
+   de conocer todos los beneficios de tener un perro.
+  </p>
+
+  <div class="caja_1a">
+      <p><i>Conoce más: <a href="#">Cómo bañar a un perro</a</i></p>
+  </div>
+</div>
+<!--fin caja_1-->
+
+</body>
+
+
+
+<!--pata--> 
+<footer class="pata">
+  <div class="lovely">
+      <h4>¿Te has preguntado alguna vez cuántas razas de perros hay?</h4>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis odio voluptatum sed id 
+          cum perferendis fuga excepturi nobis at consequatur
+          placeat maxime, dolorum aspernatur, tempore rem ea possimus ut.
+      </p>
+  </div>
+
+  <div class="lovely">
+      <h4>¿Te preguntas cuáles son las mejores razas de perros? </h4>
+      <br>
+      <p>En nuestra lista completa también podrás filtrar según sus capacidades, 
+        por su nivel de actividad física o esperanza de vida, entre otros factores. 
+        ¡Descubre pues todas las razas de perros del mundo!
+      </p>
+  </div>
+  <div class="lovely">
+      <h4>¡Contáctanos!</h4>
+      <br>
+      <p>Escríbenos a través de nuestras redes sociales o canales de contacto,
+        la mejor información sobre el mundo de las mascotas, a tu disposición.
+      </p>
+  </div> 
+</footer>
+
+<!--fin pata-->
+
+</html>
